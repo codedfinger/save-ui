@@ -1,0 +1,109 @@
+.top {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  /* margin-top: 4rem; */
+}
+
+.logo {
+  height: auto;
+  position: static;
+  overflow: hidden;
+  border-radius: 25px;
+  margin: auto;
+}
+
+.center {
+  text-align: center;
+  flex-direction: row;
+}
+
+.mobile-style {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background-color: #A5B828;
+  border-radius: 25px;
+  padding: 1rem;
+
+  /* background-image: url("../../images/background.png"); */
+  
+}
+.mobile-style a {
+  color: #32797e;
+  font-weight: 600;
+}
+
+.account-style {
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background-color: white;
+  border-radius: 25px;
+  padding: 2%;
+}
+
+.modal {
+  overflow: scroll;
+}
+.modal h4 {
+  padding: 5% 0 2% 0;
+  font-weight: 700;
+  color: #0c0847;
+}
+.modal ol {
+  padding-left: 5%;
+}
+
+/* Phones */
+@media screen and (max-width: 600px) {
+  .mobile-style {
+    max-width: 100%;
+  }
+  .logo {
+    max-width: 100%;
+  }
+}
+
+/* Portrait Tablet and Large Phones */
+@media screen and (min-width: 600px) {
+  .mobile-style {
+    max-width: 100%;
+  }
+  .logo {
+    max-width: 100%;
+  }
+}
+
+/* Landscape Tablet */
+@media screen and (min-width: 768px) {
+  .mobile-style {
+    max-width: 90%;
+  }
+  .logo {
+    max-width: 90%;
+  }
+}
+
+/* Laptop/Desktop */
+@media screen and (min-width: 992px) {
+  .mobile-style {
+    max-width: 70%;
+  }
+  .logo {
+    max-width: 70%;
+  }
+}
+
+/* Large Laptop/Desktop */
+@media screen and (min-width: 1200px) {
+  .mobile-style {
+    max-width: 50%;
+  }
+  .logo {
+    max-width: 50%;
+  }
+}
